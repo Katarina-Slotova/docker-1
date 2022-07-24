@@ -1,0 +1,2 @@
+docker container inspect overlord --> this gives lots of info, IP  address among that
+docker container inspect -f '{{ .NetworkSettings.IPAddress }}' overlord --> filters the info and gives only the IP 
